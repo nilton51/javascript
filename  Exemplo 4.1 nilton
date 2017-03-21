@@ -1,0 +1,18 @@
+<html>
+   <head>
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <script>
+         var opc= 2;
+              if(opc==1){
+                window.document.write("<br><b> opção escolha1</b>");
+              }
+              if(opc==2){
+                window.document.write("<br><b> opção escolha2</b>");
+              }
+
+                
+       </script>
+   </body>
+</html>
