@@ -1,0 +1,22 @@
+<html>
+   <head>
+      <meta charset="utf-8"/>
+      <script type= "text/javascript">
+          var valor1= 7;
+          var valor2= 2;
+      </script>
+ 
+    </head>
+    <body>
+       <h1> Operadores matemáticos </h1> 
+       <div>
+         <h2> Soma </h2>
+       <script>
+          window.document.write("<br> valor1:"+valor1+"+");
+          window.document.write("<br> valor2:"+valor2);
+          var resultado= valor1+valor2;
+          window.document.write("<br> resultado:"+resultado);
+               
+       </script>
+   </body>
+</html>
