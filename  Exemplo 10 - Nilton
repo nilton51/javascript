@@ -1,0 +1,14 @@
+<html>
+  <head>
+     <meta chasert="utf-8"/>
+<title>Exemplo 10 - Nilton</title>
+     <script>
+         function msn(){
+            var textomsn="ola, bem vindo"
+            alert (textomsn);
+          }
+      </script>
+    </head>
+    <body onload="msn()">
+    </body>
+</html>
