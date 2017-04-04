@@ -1,0 +1,23 @@
+<html>
+  <head>
+     <meta chasert="utf-8"/>
+<title>Exemplo 11 q- Nilton</title>
+     <script>
+         function QuadradoDoNumero(numero){
+         var resultado=numero*numero;
+         alert ("o resultado e igual a "+resultado)
+       }
+         function Exemplo11(nome,idade,cidade){
+         window.document.write("Nome: "+nome+"<br>");
+         window.document.write("Idade: "+idade+"<br>");
+         window.document.write("Cidade: "+cidade+"<br>");
+       }
+      </script>
+    </head>
+    <body><center>
+        <h1>Passando valor a uma funcao</h1>
+        <script>QuadradoDoNumero(6);</script>
+        <h1>Passando valor a uma funcao</h1>
+        <script>Exemplo11("Nilton",16,"Caucaia - Metropole");</script>
+    </body>
+</html>
