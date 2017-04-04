@@ -1,0 +1,16 @@
+<html>
+  <head>
+     <meta chasert="utf-8"/>
+<title>Exemplo 11 q- Nilton</title>
+     <script>
+         function QuadradoDoNumero(numero){
+         var resultado=numero*numero;
+         alert ("o resultado e igual a "+resultado)
+       }
+      </script>
+    </head>
+    <body><center>
+        <h1>Passando valor a uma funcao</h1>
+        <script>QuadradoDoNumero(6);</script>
+    </body>
+</html>
