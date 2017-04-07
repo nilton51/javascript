@@ -1,0 +1,34 @@
+<html>
+   <head>
+      <meta chasert="utf-8">
+   </head>
+<script>
+  function cuboDoNumero(numero){
+      var cubo=numero*numero;
+      return cubo;
+  }
+  function evento(){
+      var num_valor=window.document.getElementById("num").value;
+      var resl="o cubo do numero e igual a: "+cuboDoNumero(num_valor);
+      window.document.getElementById("mensagem").innerHTML=resl;
+  }
+</script>
+  <body><title>Exemplo 12 - Nilton</title><center>
+    <h1>Retornando o valor de uma funcao</h1><center>
+    <table>
+     <tr>
+      <td width="150">Digite um numero:
+      </td>
+      <td width="30"><input type="text" id="num" value="digite " size="3"/> 
+      </td>
+     </tr>
+     <tr>
+      <td width="30" colspan="2" align="center"> <input type="button" value="caucula" onclick="evento()"/>
+      </td>
+     </tr>
+     </table>
+     <br>
+     <p id="mensagem"></p>
+     
+     </body>
+</html>
