@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Exercício Prático 1 - Nilton</title>
+<head>
+<script>
+var listaDeFrutas =new Array (5);
+</script>
+</head>
+<body>
+<h1>Lista de frutas usando Array</h1>
+<script>
+listaDeFrutas[0] = "Acerola";
+listaDeFrutas[1] = "Banana";
+listaDeFrutas[2] = "Laranja";
+listaDeFrutas[3] = "Melão";
+listaDeFrutas[4] = "Maçã";
+for (j in listaDeFrutas){
+window.document.write("<h2>Fruta: "+listaDeFrutas[j]+"</h2>");
+}
+for (j=0;j<5;j++){
+window.document.write("<h2>Fruta: "+listaDeFrutas[j]+"</h2>");
+}
+</script>
+</script>
+</body>
+</html>
